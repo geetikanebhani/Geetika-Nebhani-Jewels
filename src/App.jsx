@@ -26,7 +26,7 @@ export default function App() {
 
   // Experiment 7: Backend connection test
   useEffect(() => {
-    fetch("http://localhost:5000/")
+    fetch("https://geetika-nebhani-jewels-05.onrender.com/")
       .then((response) => {
         if (!response.ok) {
           throw new Error("Backend request failed");
